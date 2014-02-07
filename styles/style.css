@@ -1,0 +1,33 @@
+body {
+	padding-top: 30px;
+}
+
+.template {
+	display: none;
+}
+
+.dataTables_wrapper {
+	clear: none;
+}
+
+.dataTables_filter {
+	float: left;
+	text-align: left;
+	width: 100%;
+}
+
+label {
+	width: 100%;
+}
+
+input, .form-control {
+	width: 50%;
+}
+
+.form-control {
+	display: inline-block;
+}
+
+.typelist button {
+	display: block;
+}

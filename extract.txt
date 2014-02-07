@@ -1,1 +1,0 @@
-SELECT d.item, tr.status, d.buy, d.sell, tr.desc FROM traders_data d JOIN trader_tids t ON d.tid = t.id JOIN server_traders tr ON t.trader = tr.id WHERE tr.instance = 17

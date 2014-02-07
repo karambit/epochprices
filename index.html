@@ -2,11 +2,23 @@
 <html>
 	<head>
 		<title>DayZ Epoch Loot Prices</title>
+		<link href="styles/bootstrap.min.css" rel="stylesheet" />
+		<link href="styles/jquery.dataTables.css" rel="stylesheet" />
+		<link href="styles/style.css" rel="stylesheet" />
 	</head>
 	<body>
-		
-		<script src="jquery.js"></script>
-		<script src="traders_data.js"></script>
-		<script src="parse.js"></script>
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class="typelist col-md-2">
+					<button type="button" class="btn btn-default">All</button>
+				</div>
+				<table class="table">
+				</table>
+			</div>
+		</div>
+		<script src="scripts/jquery.js"></script>
+		<script src="scripts/jquery.dataTables.min.js"></script>
+		<script src="scripts/traders_data.js"></script>
+		<script src="scripts/parse.js"></script>
 	</body>
 </html>
