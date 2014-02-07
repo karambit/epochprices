@@ -66,3 +66,7 @@ input, .form-control {
 .typelist button {
 	display: block;
 }
+
+tr {
+	cursor: pointer;
+}

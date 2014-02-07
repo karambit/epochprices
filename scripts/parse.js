@@ -9,18 +9,19 @@ $(function() {
 	for (var i = 0; i < traders_data_items.length; i++) {
 		var temp = traders_data_items[i];
 
-		var name = JSON.parse(temp.item)[0];
+		var name = JSON.parse(temp.item)[0].replace(/_/gi, " ");
 		var buy = format(JSON.parse(temp.buy));
 		var sell = format(JSON.parse(temp.sell));
 		var store = temp.desc;
 		var type = temp.name;
+		var nick = name.replace(" ", "");
 
-		items.push([name, buy, sell, store, type]);
+		items.push([name, buy, sell, store, type, nick]);
 
 		if ( typeof (types[type]) == "undefined") {
 			types[type] = [];
 		}
-		types[type].push([name, buy, sell, store, type]);
+		types[type].push([name, buy, sell, store, type, nick]);
 	}
 
 	var keys = Object.keys(types);
@@ -55,7 +56,7 @@ function switchTables(m) {
 		dataSource = types[m];
 	}
 
-	$(".table").dataTable({
+	var dataTable = $(".table").dataTable({
 		"bPaginate" : false,
 		"bLengthChange" : false,
 		"bFilter" : true,
@@ -74,6 +75,8 @@ function switchTables(m) {
 			"sTitle" : "Store"
 		}, {
 			"sTitle" : "Type"
+		}, {
+			"bVisible" : false
 		}],
 		"bDestroy" : true
 	});
@@ -84,6 +87,13 @@ function switchTables(m) {
 	$("tr:contains('Hero')").css("background-color", "#90EE90");
 	$("tr:contains('Bandit')").css("background-color", "#EE9090");
 	$("tr:contains('Friendly')").css("background-color", "#eeee90");
+
+	$("td").click(function() {
+		switchTables("All");
+		var clicked = $(this).html();
+		$("input").val(clicked);
+		dataTable.fnFilter(clicked);
+	});
 }
 
 function convert(x) {
