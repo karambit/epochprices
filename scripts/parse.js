@@ -1,6 +1,7 @@
 var items = [];
 var types = {};
 var mode = "All";
+var special = ["Ammunition", "Clothing", "Helicopter Armed", "Military Armed", "Trucks Armed", "Weapons"];
 
 $(function() {
 	var displayTable = $(".display");
@@ -26,7 +27,14 @@ $(function() {
 	keys.sort();
 
 	for (var i = 0; i < keys.length; i++) {
-		var tempLink = $('<button type="button" class="btn btn-default">').html(keys[i]);
+		var tempLink = $('<button type="button" class="btn">').html(keys[i]);
+		if (special.contains(keys[i])) {
+			tempLink.addClass("btn-info");
+		} else if (keys[i].indexOf("Black") != -1) {
+			tempLink.addClass("btn-danger");
+		} else {
+			tempLink.addClass("btn-default");
+		}
 		$(".typelist").append(tempLink);
 	}
 
@@ -75,6 +83,7 @@ function switchTables(m) {
 
 	$("tr:contains('Hero')").css("background-color", "#90EE90");
 	$("tr:contains('Bandit')").css("background-color", "#EE9090");
+	$("tr:contains('Friendly')").css("background-color", "#eeee90");
 }
 
 function convert(x) {
@@ -96,6 +105,16 @@ function format(item) {
 
 	return amount + "x " + item[1].replace(/Item|Bar|10oz|100oz/gi, "");
 }
+
+Array.prototype.contains = function(obj) {
+	var i = this.length;
+	while (i--) {
+		if (this[i] === obj) {
+			return true;
+		}
+	}
+	return false;
+};
 
 $.extend($.fn.DataTable.ext.oSort, {
 	"money" : function(a) {
