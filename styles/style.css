@@ -1,5 +1,23 @@
 body {
-	padding-top: 30px;
+	background-image: url('../images/background.jpg');
+}
+
+h1, .links {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+h2 {
+	margin-top: 0;
+	padding-bottom: 0.3em;
+	text-align: center;
+}
+
+.links {
+	padding-left: 20px;
+	padding-bottom: 20px;
 }
 
 .template {
@@ -14,10 +32,17 @@ body {
 	float: left;
 	text-align: left;
 	width: 100%;
+	vertical-align: middle;
+}
+
+button {
+	width: 100%;
 }
 
 label {
 	width: 100%;
+	font-size: 1.3em;
+	text-align: center;
 }
 
 input, .form-control {
@@ -26,6 +51,7 @@ input, .form-control {
 
 .form-control {
 	display: inline-block;
+	margin-left: 20px;
 }
 
 .typelist button {

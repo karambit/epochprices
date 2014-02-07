@@ -41,7 +41,7 @@ function switchTables(m) {
 	$(".table").empty();
 
 	var dataSource;
-	if (m == "All") {
+	if (m.indexOf("All") != -1) {
 		dataSource = items;
 	} else {
 		dataSource = types[m];
