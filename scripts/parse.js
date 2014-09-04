@@ -1,6 +1,7 @@
 var items = [];
 var types = {};
 var mode = "All";
+var special = ["Ammunition", "Clothing", "Helicopter Armed", "Military Armed", "Trucks Armed", "Weapons"];
 
 $(function() {
 	var displayTable = $(".display");
@@ -26,7 +27,7 @@ $(function() {
 		if ( typeof (types[type]) == "undefined") {
 			types[type] = [];
 		}
-		types[type].push([name, buy, sell, type, trader]);
+		types[type].push([name, buy, sell, type, trader, nick]);
 	}
 
 	var keys = Object.keys(types);
@@ -34,7 +35,13 @@ $(function() {
 
 	for (var i = 0; i < keys.length; i++) {
 		var tempLink = $('<button type="button" class="btn">').html(keys[i]);
-		tempLink.addClass("btn-default");
+		if (special.contains(keys[i])) {
+			tempLink.addClass("btn-info");
+		} else if (keys[i].indexOf("Black") != -1) {
+			tempLink.addClass("btn-danger");
+		} else {
+			tempLink.addClass("btn-default");
+		}
 		$(".typelist").append(tempLink);
 	}
 
@@ -81,8 +88,8 @@ function switchTables(m) {
 	$(".dataTables_wrapper").addClass("col-md-10");
 	$("label input").addClass("form-control").attr("placeholder", "Item Classname Ex: LRR, SUV, UH1H");
 
-	$("tr:contains('Hero')").css("background-color", "#90EE90");
-	$("tr:contains('Bandit')").css("background-color", "#EE9090");
+	$("tr:contains('Hero Trader')").css("background-color", "#90EE90");
+	$("tr:contains('Bandit Trader')").css("background-color", "#EE9090");
 
 	$("td").click(function() {
 		switchTables("All");
