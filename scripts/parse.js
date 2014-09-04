@@ -12,14 +12,21 @@ $(function() {
 		var buy = temp.buy;
 		var sell = temp.sell;
 		var type = temp.category;
+		var trader;
+		
+		if( typeof temp.trader === 'undefined') {
+			trader = "Normal";
+		} else {
+			trader = temp.trader;
+		}
 		var nick = name.replace(" ", "");
 
-		items.push([name, buy, sell, type, nick]);
+		items.push([name, buy, sell, type, trader, nick]);
 
 		if ( typeof (types[type]) == "undefined") {
 			types[type] = [];
 		}
-		types[type].push([name, buy, sell, type, nick]);
+		types[type].push([name, buy, sell, type, trader]);
 	}
 
 	var keys = Object.keys(types);
@@ -64,6 +71,8 @@ function switchTables(m) {
 		}, {
 			"sTitle" : "Type"
 		}, {
+			"sTitle" : "Trader"
+		}, {
 			"bVisible" : false
 		}],
 		"bDestroy" : true
@@ -71,6 +80,9 @@ function switchTables(m) {
 
 	$(".dataTables_wrapper").addClass("col-md-10");
 	$("label input").addClass("form-control").attr("placeholder", "Item Classname Ex: LRR, SUV, UH1H");
+
+	$("tr:contains('Hero')").css("background-color", "#90EE90");
+	$("tr:contains('Bandit')").css("background-color", "#EE9090");
 
 	$("td").click(function() {
 		switchTables("All");

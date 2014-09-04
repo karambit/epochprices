@@ -228,207 +228,248 @@ var traders_data_items_new =
 	item : "30Rnd_556x45_StanagSD",
 	category : "Ammunition",
 	buy : 600,
-	sell : 150
+	sell : 150,
+	trader : "Bandit Trader"
 }, {
 	item : "5Rnd_86x70_L115A1",
 	category : "Ammunition",
 	buy : 1200,
-	sell : 300
+	sell : 300,
+	trader : "Bandit Trader"
 }, {
 	item : "100Rnd_762x51_M240",
 	category : "Ammunition",
 	buy : 1800,
-	sell : 600
+	sell : 600,
+	trader : "Bandit Trader"
 }, {
 	item : "20Rnd_762x51_FNFAL",
 	category : "Ammunition",
 	buy : 600,
-	sell : 180
+	sell : 180,
+	trader : "Bandit Trader"
 }, {
 	item : "20Rnd_762x51_SB_SCAR",
 	category : "Ammunition",
 	buy : 1800,
-	sell : 600
+	sell : 600,
+	trader : "Bandit Trader"
 }, {
 	item : "CH_47F_EP1_DZE",
 	category : "Helicopter Armed",
 	buy : 432000,
-	sell : 108000
+	sell : 108000,
+	trader : "Bandit Trader"
 }, {
 	item : "UH1H_DZE",
 	category : "Helicopter Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Bandit Trader"
 }, {
 	item : "Mi17_DZE",
 	category : "Helicopter Armed",
 	buy : 432000,
-	sell : 54000
+	sell : 54000,
+	trader : "Bandit Trader"
 }, {
 	item : "UH60M_EP1_DZE",
 	category : "Helicopter Armed",
 	buy : 432000,
-	sell : 108000
+	sell : 108000,
+	trader : "Bandit Trader"
 }, {
 	item : "UH1Y_DZE",
 	category : "Helicopter Armed",
 	buy : 432000,
-	sell : 108000
+	sell : 108000,
+	trader : "Bandit Trader"
 }, {
 	item : "HMMWV_M998A2_SOV_DES_EP1_DZE",
 	category : "Military Armed",
 	buy : 144000,
-	sell : 36000
+	sell : 36000,
+	trader : "Bandit Trader"
 }, {
 	item : "HMMWV_M1151_M2_CZ_DES_EP1_DZE",
 	category : "Military Armed",
 	buy : 432000,
-	sell : 100000
+	sell : 100000,
+	trader : "Bandit Trader"
 }, {
 	item : "LandRover_Special_CZ_EP1_DZE",
 	category : "Military Armed",
 	buy : 144000,
-	sell : 36000
+	sell : 36000,
+	trader : "Bandit Trader"
 }, {
 	item : "LandRover_MG_TK_EP1_DZE",
 	category : "Military Armed",
 	buy : 72000,
-	sell : 18000
+	sell : 18000,
+	trader : "Bandit Trader"
 }, {
 	item : "UAZ_MG_TK_EP1_DZE",
 	category : "Military Armed",
 	buy : 72000,
-	sell : 18000
+	sell : 18000,
+	trader : "Bandit Trader"
 }, {
 	item : "BAF_Jackal2_L2A1_W",
 	category : "Military Armed",
 	buy : 432000,
-	sell : 108000
+	sell : 108000,
+	trader : "Bandit Trader"
 }, {
 	item : "Pickup_PK_GUE_DZE",
 	category : "Trucks Armed",
 	buy : 18000,
-	sell : 4500
+	sell : 4500,
+	trader : "Bandit Trader"
 }, {
 	item : "Pickup_PK_INS_DZE",
 	category : "Trucks Armed",
 	buy : 18000,
-	sell : 4500
+	sell : 4500,
+	trader : "Bandit Trader"
 }, {
 	item : "ArmoredSUV_PMC_DZE",
 	category : "Trucks Armed",
 	buy : 432000,
-	sell : 108000
+	sell : 108000,
+	trader : "Bandit Trader"
 }, {
 	item : "Pickup_PK_TK_GUE_EP1_DZE",
 	category : "Trucks Armed",
 	buy : 14400,
-	sell : 3600
+	sell : 3600,
+	trader : "Bandit Trader"
 }, {
 	item : "Offroad_DSHKM_Gue_DZE",
 	category : "Trucks Armed",
 	buy : 72000,
-	sell : 18000
+	sell : 18000,
+	trader : "Bandit Trader"
 }, {
 	item : "G36_C_SD_camo",
 	category : "Weapons",
 	buy : 18000,
-	sell : 4500
+	sell : 4500,
+	trader : "Bandit Trader"
 }, {
 	item : "M4A1_AIM_SD_camo",
 	category : "Weapons",
 	buy : 18000,
-	sell : 4500
+	sell : 4500,
+	trader : "Bandit Trader"
 }, {
 	item : "FN_FAL_ANPVS4",
 	category : "Weapons",
 	buy : 18000,
-	sell : 4500
+	sell : 4500,
+	trader : "Bandit Trader"
 }, {
 	item : "SCAR_H_LNG_Sniper_SD",
 	category : "Weapons",
 	buy : 36000,
-	sell : 9000
+	sell : 9000,
+	trader : "Bandit Trader"
 }, {
 	item : "BAF_LRR_scoped",
 	category : "Weapons",
 	buy : 36000,
-	sell : 9000
+	sell : 9000,
+	trader : "Bandit Trader"
 }, {
 	item : "FN_FAL",
 	category : "Weapons",
 	buy : 18000,
-	sell : 6300
+	sell : 6300,
+	trader : "Bandit Trader"
 }, {
 	item : "Mk_48_DZ",
 	category : "Weapons",
 	buy : 18000,
-	sell : 5400
+	sell : 5400,
+	trader : "Bandit Trader"
 }, {
 	item : "M240_DZ",
 	category : "Weapons",
 	buy : 18000,
-	sell : 5400
+	sell : 5400,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_Bandit1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_Bandit2_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_GUE_Commander_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_GUE_Soldier_2_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_GUE_Soldier_CO_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_GUE_Soldier_Crew_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_GUE_Soldier_Sniper_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_Ins_Soldier_GL_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_TK_INS_Soldier_EP1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_TK_INS_Warlord_EP1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_BanditW1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "Skin_BanditW2_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Bandit Trader"
 }, {
 	item : "MMT_Civ",
 	category : "Bikes and ATV",
@@ -1128,212 +1169,254 @@ var traders_data_items_new =
 	item : "30Rnd_556x45_StanagSD",
 	category : "Ammunition",
 	buy : 300,
-	sell : 150
+	sell : 150,
+	trader : "Hero Trader"
 }, {
 	item : "5Rnd_86x70_L115A1",
 	category : "Ammunition",
 	buy : 600,
-	sell : 300
+	sell : 300,
+	trader : "Hero Trader"
 }, {
 	item : "100Rnd_762x51_M240",
 	category : "Ammunition",
 	buy : 900,
-	sell : 600
+	sell : 600,
+	trader : "Hero Trader"
 }, {
 	item : "20Rnd_762x51_FNFAL",
 	category : "Ammunition",
 	buy : 300,
-	sell : 180
+	sell : 180,
+	trader : "Hero Trader"
 }, {
 	item : "20Rnd_762x51_SB_SCAR",
 	category : "Ammunition",
 	buy : 900,
-	sell : 600
+	sell : 600,
+	trader : "Hero Trader"
 }, {
 	item : "CH_47F_EP1_DZE",
 	category : "Helicopter Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Hero Trader"
 }, {
 	item : "UH1H_DZE",
 	category : "Helicopter Armed",
 	buy : 108000,
-	sell : 54000
+	sell : 54000,
+	trader : "Hero Trader"
 }, {
 	item : "Mi17_DZE",
 	category : "Helicopter Armed",
 	buy : 108000,
-	sell : 54000
+	sell : 54000,
+	trader : "Hero Trader"
 }, {
 	item : "UH60M_EP1_DZE",
 	category : "Helicopter Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Hero Trader"
 }, {
 	item : "UH1Y_DZE",
 	category : "Helicopter Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Hero Trader"
 }, {
 	item : "HMMWV_M998A2_SOV_DES_EP1_DZE",
 	category : "Military Armed",
 	buy : 72000,
-	sell : 36000
+	sell : 36000,
+	trader : "Hero Trader"
 }, {
 	item : "HMMWV_M1151_M2_CZ_DES_EP1_DZE",
 	category : "Military Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Hero Trader"
 }, {
 	item : "LandRover_Special_CZ_EP1_DZE",
 	category : "Military Armed",
 	buy : 72000,
-	sell : 36000
+	sell : 36000,
+	trader : "Hero Trader"
 }, {
 	item : "LandRover_MG_TK_EP1_DZE",
 	category : "Military Armed",
 	buy : 36000,
-	sell : 18000
+	sell : 18000,
+	trader : "Hero Trader"
 }, {
 	item : "UAZ_MG_TK_EP1_DZE",
 	category : "Military Armed",
 	buy : 36000,
-	sell : 18000
+	sell : 18000,
+	trader : "Hero Trader"
 }, {
 	item : "BAF_Jackal2_L2A1_W",
 	category : "Military Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Hero Trader"
 }, {
 	item : "Pickup_PK_GUE_DZE",
 	category : "Trucks Armed",
 	buy : 9000,
-	sell : 4500
+	sell : 4500,
+	trader : "Hero Trader"
 }, {
 	item : "Pickup_PK_INS_DZE",
 	category : "Trucks Armed",
 	buy : 9000,
-	sell : 4500
+	sell : 4500,
+	trader : "Hero Trader"
 }, {
 	item : "ArmoredSUV_PMC_DZE",
 	category : "Trucks Armed",
 	buy : 216000,
-	sell : 108000
+	sell : 108000,
+	trader : "Hero Trader"
 }, {
 	item : "Pickup_PK_TK_GUE_EP1_DZE",
 	category : "Trucks Armed",
 	buy : 7200,
-	sell : 3600
+	sell : 3600,
+	trader : "Hero Trader"
 }, {
 	item : "Offroad_DSHKM_Gue_DZE",
 	category : "Trucks Armed",
 	buy : 36000,
-	sell : 18000
+	sell : 18000,
+	trader : "Hero Trader"
 }, {
 	item : "G36_C_SD_camo",
 	category : "Weapons",
 	buy : 9000,
-	sell : 4500
+	sell : 4500,
+	trader : "Hero Trader"
 }, {
 	item : "M4A1_AIM_SD_camo",
 	category : "Weapons",
 	buy : 9000,
-	sell : 4500
+	sell : 4500,
+	trader : "Hero Trader"
 }, {
 	item : "FN_FAL_ANPVS4",
 	category : "Weapons",
 	buy : 9000,
-	sell : 4500
+	sell : 4500,
+	trader : "Hero Trader"
 }, {
 	item : "SCAR_H_LNG_Sniper_SD",
 	category : "Weapons",
 	buy : 18000,
-	sell : 9000
+	sell : 9000,
+	trader : "Hero Trader"
 }, {
 	item : "BAF_LRR_scoped",
 	category : "Weapons",
 	buy : 18000,
-	sell : 9000
+	sell : 9000,
+	trader : "Hero Trader"
 }, {
 	item : "FN_FAL",
 	category : "Weapons",
 	buy : 9000,
-	sell : 6300
+	sell : 6300,
+	trader : "Hero Trader"
 }, {
 	item : "Mk_48_DZ",
 	category : "Weapons",
 	buy : 9000,
-	sell : 5400
+	sell : 5400,
+	trader : "Hero Trader"
 }, {
 	item : "M240_DZ",
 	category : "Weapons",
 	buy : 9000,
-	sell : 5400
+	sell : 5400,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_CZ_Special_Forces_GL_DES_EP1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Drake_Light_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Soldier_Sniper_PMC_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_FR_OHara_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_FR_Rodriguez_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_CZ_Soldier_Sniper_EP1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Graves_Light_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Soldier_Bodyguard_AA12_PMC_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Camo1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Rocket_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Sniper1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Soldier1_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "Skin_Soldier_TL_PMC_DZ",
 	category : "Cloths",
 	buy : 1800,
-	sell : 900
+	sell : 900,
+	trader : "Hero Trader"
 }, {
 	item : "M249_DZ",
 	category : "Light Machine Gun",
