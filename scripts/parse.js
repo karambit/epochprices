@@ -14,8 +14,8 @@ $(function() {
 		var sell = temp.sell;
 		var type = temp.category;
 		var trader;
-		
-		if( typeof temp.trader === 'undefined') {
+
+		if ( typeof temp.trader === 'undefined') {
 			trader = "Normal";
 		} else {
 			trader = temp.trader;
@@ -82,7 +82,10 @@ function switchTables(m) {
 		}, {
 			"bVisible" : false
 		}],
-		"bDestroy" : true
+		"bDestroy" : true,
+		"oLanguage" : {
+			"sSearch" : "Quick Search: "
+		}
 	});
 
 	$(".dataTables_wrapper").addClass("col-md-10");
