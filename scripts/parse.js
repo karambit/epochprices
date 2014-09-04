@@ -1,27 +1,27 @@
 var items = [];
 var types = {};
 var mode = "All";
-var special = ["Ammunition", "Clothing", "Helicopter Armed", "Military Armed", "Trucks Armed", "Weapons"];
+//var special = ["Ammunition", "Clothing", "Helicopter Armed", "Military Armed", "Trucks Armed", "Weapons"];
 
 $(function() {
 	var displayTable = $(".display");
 
-	for (var i = 0; i < traders_data_items.length; i++) {
-		var temp = traders_data_items[i];
+	for (var i = 0; i < traders_data_items_new.length; i++) {
+		var temp = traders_data_items_new[i];
 
-		var name = JSON.parse(temp.item)[0].replace(/_/gi, " ");
-		var buy = format(JSON.parse(temp.buy));
-		var sell = format(JSON.parse(temp.sell));
-		var store = temp.desc;
-		var type = temp.name;
+		var name = temp.item;
+		var buy = temp.buy;
+		var sell = temp.sell;
+		// var store = temp.desc;
+		var type = temp.category;
 		var nick = name.replace(" ", "");
 
-		items.push([name, buy, sell, store, type, nick]);
+		items.push([name, buy, sell, type, nick]);
 
 		if ( typeof (types[type]) == "undefined") {
 			types[type] = [];
 		}
-		types[type].push([name, buy, sell, store, type, nick]);
+		types[type].push([name, buy, sell, type, nick]);
 	}
 
 	var keys = Object.keys(types);
@@ -29,13 +29,7 @@ $(function() {
 
 	for (var i = 0; i < keys.length; i++) {
 		var tempLink = $('<button type="button" class="btn">').html(keys[i]);
-		if (special.contains(keys[i])) {
-			tempLink.addClass("btn-info");
-		} else if (keys[i].indexOf("Black") != -1) {
-			tempLink.addClass("btn-danger");
-		} else {
-			tempLink.addClass("btn-default");
-		}
+		tempLink.addClass("btn-default");
 		$(".typelist").append(tempLink);
 	}
 
@@ -72,8 +66,6 @@ function switchTables(m) {
 			"sTitle" : "Sell",
 			"sType" : "money"
 		}, {
-			"sTitle" : "Store"
-		}, {
 			"sTitle" : "Type"
 		}, {
 			"bVisible" : false
@@ -94,26 +86,6 @@ function switchTables(m) {
 		$("input").val(clicked);
 		dataTable.fnFilter(clicked);
 	});
-}
-
-function convert(x) {
-	x = x.replace("x ", "");
-	x = x.replace("Briefcase", "000000");
-	x = x.replace("Gold", "0000");
-	x = x.replace("Silver", "00");
-	x = x.replace("Tin", "");
-	return x;
-}
-
-function format(item) {
-	var amount = item[0];
-
-	// handles only 10oz, not briefs
-	if (item[1].indexOf("100oz") == -1 && item[1].indexOf("10oz") != -1) {
-		amount += "0";
-	}
-
-	return amount + "x " + item[1].replace(/Item|Bar|10oz|100oz/gi, "");
 }
 
 Array.prototype.contains = function(obj) {
