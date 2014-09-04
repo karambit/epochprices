@@ -1,7 +1,6 @@
 var items = [];
 var types = {};
 var mode = "All";
-//var special = ["Ammunition", "Clothing", "Helicopter Armed", "Military Armed", "Trucks Armed", "Weapons"];
 
 $(function() {
 	var displayTable = $(".display");
@@ -12,7 +11,6 @@ $(function() {
 		var name = temp.item;
 		var buy = temp.buy;
 		var sell = temp.sell;
-		// var store = temp.desc;
 		var type = temp.category;
 		var nick = name.replace(" ", "");
 
@@ -61,10 +59,8 @@ function switchTables(m) {
 			"sTitle" : "Name"
 		}, {
 			"sTitle" : "Buy",
-			"sType" : "money"
 		}, {
 			"sTitle" : "Sell",
-			"sType" : "money"
 		}, {
 			"sTitle" : "Type"
 		}, {
@@ -75,10 +71,6 @@ function switchTables(m) {
 
 	$(".dataTables_wrapper").addClass("col-md-10");
 	$("label input").addClass("form-control").attr("placeholder", "Item Classname Ex: LRR, SUV, UH1H");
-
-	$("tr:contains('Hero')").css("background-color", "#90EE90");
-	$("tr:contains('Bandit')").css("background-color", "#EE9090");
-	$("tr:contains('Friendly')").css("background-color", "#eeee90");
 
 	$("td").click(function() {
 		switchTables("All");
@@ -97,19 +89,3 @@ Array.prototype.contains = function(obj) {
 	}
 	return false;
 };
-
-$.extend($.fn.DataTable.ext.oSort, {
-	"money" : function(a) {
-		return a;
-	},
-	"money-asc" : function(x, y) {
-		x = convert(x);
-		y = convert(y);
-		return Number(x) - Number(y);
-	},
-	"money-desc" : function(x, y) {
-		x = convert(x);
-		y = convert(y);
-		return Number(y) - Number(x);
-	}
-});

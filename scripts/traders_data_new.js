@@ -35,31 +35,6 @@ var traders_data_items_new =
 	buy : 36000,
 	sell : 18000
 }, {
-	item : "30Rnd_556x45_StanagSD",
-	category : "Ammunition",
-	buy : 300,
-	sell : 150
-}, {
-	item : "5Rnd_86x70_L115A1",
-	category : "Ammunition",
-	buy : 300,
-	sell : 150
-}, {
-	item : "100Rnd_762x51_M240",
-	category : "Ammunition",
-	buy : 900,
-	sell : 600
-}, {
-	item : "20Rnd_762x51_FNFAL",
-	category : "Ammunition",
-	buy : 300,
-	sell : 180
-}, {
-	item : "20Rnd_762x51_SB_SCAR",
-	category : "Ammunition",
-	buy : 900,
-	sell : 600
-}, {
 	item : "G36A_camo",
 	category : "Assault Rifle",
 	buy : 5400,
@@ -1125,31 +1100,6 @@ var traders_data_items_new =
 	buy : 63000,
 	sell : 27000
 }, {
-	item : "CH_47F_EP1_DZE",
-	category : "Helicopter Armed",
-	buy : 432000,
-	sell : 108000
-}, {
-	item : "UH1H_DZE",
-	category : "Helicopter Armed",
-	buy : 432000,
-	sell : 108000
-}, {
-	item : "Mi17_DZE",
-	category : "Helicopter Armed",
-	buy : 108000,
-	sell : 27000
-}, {
-	item : "UH60M_EP1_DZE",
-	category : "Helicopter Armed",
-	buy : 432000,
-	sell : 108000
-}, {
-	item : "UH1Y_DZE",
-	category : "Helicopter Armed",
-	buy : 432000,
-	sell : 108000
-}, {
 	item : "Mi17_Civilian_DZ",
 	category : "Helicopter Unarmed",
 	buy : 36000,
@@ -1489,36 +1439,6 @@ var traders_data_items_new =
 	category : "Metals",
 	buy : 2,
 	sell : 2
-}, {
-	item : "HMMWV_M998A2_SOV_DES_EP1_DZE",
-	category : "Military Armed",
-	buy : 72000,
-	sell : 36000
-}, {
-	item : "HMMWV_M1151_M2_CZ_DES_EP1_DZE",
-	category : "Military Armed",
-	buy : 200000,
-	sell : 100000
-}, {
-	item : "LandRover_Special_CZ_EP1_DZE",
-	category : "Military Armed",
-	buy : 72000,
-	sell : 36000
-}, {
-	item : "LandRover_MG_TK_EP1_DZE",
-	category : "Military Armed",
-	buy : 36000,
-	sell : 18000
-}, {
-	item : "UAZ_MG_TK_EP1_DZE",
-	category : "Military Armed",
-	buy : 36000,
-	sell : 18000
-}, {
-	item : "BAF_Jackal2_L2A1_W",
-	category : "Military Armed",
-	buy : 216000,
-	sell : 108000
 }, {
 	item : "HMMWV_M1035_DES_EP1",
 	category : "Military Unarmed",
@@ -5185,31 +5105,6 @@ var traders_data_items_new =
 	buy : 300,
 	sell : 150
 }, {
-	item : "Pickup_PK_GUE_DZE",
-	category : "Trucks Armed",
-	buy : 9000,
-	sell : 4500
-}, {
-	item : "Pickup_PK_INS_DZE",
-	category : "Trucks Armed",
-	buy : 9000,
-	sell : 4500
-}, {
-	item : "ArmoredSUV_PMC_DZE",
-	category : "Trucks Armed",
-	buy : 432000,
-	sell : 216000
-}, {
-	item : "Pickup_PK_TK_GUE_EP1_DZE",
-	category : "Trucks Armed",
-	buy : 7200,
-	sell : 3600
-}, {
-	item : "Offroad_DSHKM_Gue_DZE",
-	category : "Trucks Armed",
-	buy : 36000,
-	sell : 18000
-}, {
 	item : "hilux1_civil_3_open_EP1",
 	category : "Trucks Unarmed",
 	buy : 3600,
@@ -5459,46 +5354,6 @@ var traders_data_items_new =
 	category : "Vehicle Parts",
 	buy : 300,
 	sell : 150
-}, {
-	item : "G36_C_SD_camo",
-	category : "Weapons",
-	buy : 9000,
-	sell : 4500
-}, {
-	item : "M4A1_AIM_SD_camo",
-	category : "Weapons",
-	buy : 9000,
-	sell : 4500
-}, {
-	item : "FN_FAL_ANPVS4",
-	category : "Weapons",
-	buy : 9000,
-	sell : 4500
-}, {
-	item : "SCAR_H_LNG_Sniper_SD",
-	category : "Weapons",
-	buy : 18000,
-	sell : 9000
-}, {
-	item : "BAF_LRR_scoped",
-	category : "Weapons",
-	buy : 18000,
-	sell : 9000
-}, {
-	item : "FN_FAL",
-	category : "Weapons",
-	buy : 9000,
-	sell : 6300
-}, {
-	item : "Mk_48_DZ",
-	category : "Weapons",
-	buy : 9000,
-	sell : 5400
-}, {
-	item : "M240_DZ",
-	category : "Weapons",
-	buy : 9000,
-	sell : 5400
 }, {
 	item : "CinderBlocks",
 	category : "Wholesale",
