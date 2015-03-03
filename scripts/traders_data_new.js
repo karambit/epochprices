@@ -1143,28 +1143,28 @@ var traders_data_items_new =
 }, {
 	item : "Mi17_Civilian_DZ",
 	category : "Helicopter Unarmed",
+	buy : 72000,
+	sell : 36000
+}, {
+	item : "AH6X_DZ",
+	category : "Helicopter Unarmed",
 	buy : 36000,
 	sell : 18000
 }, {
-	item : "AH6X_DZ",
+	item : "MH6J_DZ",
 	category : "Helicopter Unarmed",
 	buy : 54000,
 	sell : 27000
 }, {
-	item : "MH6J_DZ",
+	item : "pook_H13_medevac",
 	category : "Helicopter Unarmed",
 	buy : 72000,
 	sell : 36000
-}, {
-	item : "pook_H13_medevac",
-	category : "Helicopter Unarmed",
-	buy : 92000,
-	sell : 46000
 }, {
 	item : "pook_H13_civ_slate",
 	category : "Helicopter Unarmed",
-	buy : 72000,
-	sell : 36000
+	buy : 54000,
+	sell : 27000
 }, {
 	item : "30Rnd_556x45_StanagSD",
 	category : "Ammunition",
